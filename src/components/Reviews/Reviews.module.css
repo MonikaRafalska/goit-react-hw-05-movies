@@ -1,0 +1,19 @@
+.reviews_title{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.reviews_list{
+  padding-left: 0px;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.reviews_err{
+  display: flex;
+  justify-content: center;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: large;
+}

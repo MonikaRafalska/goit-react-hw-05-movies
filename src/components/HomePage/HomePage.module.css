@@ -1,0 +1,24 @@
+.home_title{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.home_list{
+  padding: 0%;
+  list-style: none;
+  text-align: center;
+  /* background-color: aquamarine; */
+}
+.home_item{
+  margin-bottom: 5px;
+}
+.home_link{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: large;
+}
+.home_link:hover,
+.home_link:focus{
+  color: rgb(0, 140, 255);
+}

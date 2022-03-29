@@ -1,0 +1,28 @@
+.cast_title{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.cast_list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 0;
+}
+.cast_name{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.cast_character{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 200px;
+  font-size: small;
+  border-bottom: 1px solid black;
+}
+.cast_img{
+  width: 200px;
+  height: 300px;
+}
