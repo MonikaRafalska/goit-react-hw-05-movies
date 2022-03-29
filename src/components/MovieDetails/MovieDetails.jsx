@@ -39,7 +39,8 @@ const MovieDetailsPage = () => {
       </button>
       {poster_path !== null ? (
         <img
-          src={`https://image.tmdb.org/t/p/w200${poster_path}`}
+          src={
+            poster_path ? `https://image.tmdb.org/t/p/w200${poster_path}` : ""}
           alt="poster"
           className={styles.img}
         />
@@ -71,7 +72,8 @@ const MovieDetailsPage = () => {
         </li>
         <li>
           <Link
-            className={styles.description_link} to={`/movies/${id}/reviews`}>
+            className={styles.description_link}
+            to={`/movies/${id}/reviews`}>
             Reviews
           </Link>
         </li>
